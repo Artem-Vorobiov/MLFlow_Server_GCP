@@ -16,7 +16,7 @@ jobs:
       PROJECT_ID:       mlflow-env1            
       REPOSITORY:       my-docker-repo    
       SERVICE_ACCOUNT:  SA-NAME@mlflow-env1.iam.gserviceaccount.com   
-      SERVICE_NAME:     mlflow-server         
+      SERVICE_NAME:     mlflow-server     # again    
 
     steps:
     - name: Checkout
