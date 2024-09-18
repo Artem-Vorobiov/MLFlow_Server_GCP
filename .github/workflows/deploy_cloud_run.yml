@@ -12,11 +12,11 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      REGION: MY_REGION                     # edit here
-      PROJECT_ID: MY_PROJECT_ID             # edit here
-      REPOSITORY: MY_ARTIFACT_REPOSITORY    # edit here
-      SERVICE_ACCOUNT: MY_SERVICE_ACCOUNT   # edit here
-      SERVICE_NAME: MY_SERVICE_NAME         # edit here
+      REGION:           us-central1                     # edit here
+      PROJECT_ID:       mlflow-env1             # edit here
+      REPOSITORY:       my-docker-repo    # edit here
+      SERVICE_ACCOUNT:  SA-NAME@mlflow-env1.iam.gserviceaccount.com   # edit here
+      SERVICE_NAME:     mlflow-server         # edit here
 
     steps:
     - name: Checkout
